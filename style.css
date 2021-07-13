@@ -44,4 +44,17 @@ nav img{
 }
 .intro-box{
     color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.intro-box h1{
+    font-size: 70px;
+}
+.intro-box p{
+    font-size: 20px;
+    margin: auto;
+
 }
