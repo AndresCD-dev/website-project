@@ -45,7 +45,7 @@ nav img{
 .intro-box{
     color:#fff;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -57,4 +57,52 @@ nav img{
     font-size: 20px;
     margin: auto;
 
+}
+.intro-box img{
+    position: fixed;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 80px;
+    align-items: center;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: rgb(56, 54, 54);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.col{
+    flex-basis: 31%;
+    background: #c98a72;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
